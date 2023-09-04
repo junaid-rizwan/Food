@@ -1,0 +1,128 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    height: 60px;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.1);
+}
+.logo{
+    min-width: 40px;
+    width: 50px;
+}
+.inputBox{
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0px 3px 20px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 8px 15px;
+    width: 120px;
+
+}
+.inputBox .secarchIcon{
+    color:#787a84 ;
+    font-size: 20px;
+}
+.inputBox input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #787a84;
+    padding-left:8px ;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.shoppingCart{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shoppingCart .cart{
+    font-size: 30px;
+    color: #373848;
+
+}
+/* .shoppingCart .cart_content{
+    width: 20px;height: 20px;
+    background: #f8901c;
+    border-radius: 100%;
+    min-width: 20px;
+    min-height: 20px;
+    position: absolute;
+    top: -8px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.shoppingCart .cart_content p{
+    font-weight: 500;
+    color: white;
+}
+.profileContainer{
+    display: flex;
+    align-items: center;
+
+}
+.profileContainer .imgbox{
+    width: 40px;height: 40px;
+    min-width: 40px;
+    border-radius: 100vw;
+    background:#444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.profileContainer .imgbox .profilePic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.toggleMenu{
+    transform: rotate(90deg);
+
+}
+.toggleMenu .toggleIcon{
+    color: #373848;
+    font-size: 30px;
+    
+}
+
+
+
+.profileContainer .userName{
+
+    font-size: 16px;
+    margin-left: 8px;
+    font-weight: 500;
+    display: none;
+
+}
+@media screen and (min-width: 650px) {
+    .rowcontainer {
+      justify-content: space-between;
+    }
+
+  
+    .inputBox {
+      width: 60%;
+    }
+  }
+
